@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "testing"
+version = "0.1.0"
+description = ""
+authors = ["AndyPythonCode <andyarciniegas24@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+beautifulsoup4 = "^4.9.3"
+lxml = "^4.6.3"
+scrape-html = "^0.0.22"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
